@@ -1,0 +1,16 @@
+http:
+  host: "metadata"
+  port: 9092
+jaeger:
+  url: "127.0.0.1:4317"
+prometheus:
+  metricsPort: 8091
+sql:
+  userName: "root"
+  password: "password"
+
+consul:
+  address: "consul-headless:8500"
+grpc:
+  host: "metadata"
+  port: 8081
